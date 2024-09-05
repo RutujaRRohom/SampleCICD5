@@ -1,0 +1,1224 @@
+{
+	"info": {
+		"_postman_id": "7bcdeed1-308f-4047-9738-9e00ce53a5fa",
+		"name": "Haircut Store API",
+		"description": "Collection for Haircut Store API endpoints",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25974139"
+	},
+	"item": [
+		{
+			"name": "Service",
+			"item": [
+				{
+					"name": "Service List",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://45.79.19.55:8000/service",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"service"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						},
+						"description": "- SQL Injection\n    \n- Error Handling (Information Disclosure)\n    \n- Lack of Input Validation/Sanitization\n    \n- Command Injection"
+					},
+					"response": []
+				},
+				{
+					"name": "Add Service ",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Head Massage\",\r\n    \"duration\":45,\r\n    \"price\":\"50.00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/addservice",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"addservice"
+							]
+						},
+						"description": "- **SQL Injection**\n    \n- **Cross-Site Scripting (XSS)**\n    \n- **Insecure Direct Object References (IDOR)**\n    \n- **Improper Error Handling**\n    \n- **Insecure Data Storage**\n    \n- **Missing Input Validation/Sanitization**"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Service ",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n\t\"id\": 3,\r\n\t\"name\": \"Head Massage\",\r\n\t\"duration\": \"40\",\r\n    \"price\":\"60.00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/updateservice",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"updateservice"
+							]
+						},
+						"description": "- SQL Injection\n    \n- No Input Validation/Sanitization\n    \n- Insecure Direct Object References (IDOR)\n    \n- Error Information Disclosure\n    \n- Lack of Proper Error Handling"
+					},
+					"response": []
+				},
+				{
+					"name": "Delete Service",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "\r\n{\r\n\t\"id\": 3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/deletedervice",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"deletedervice"
+							]
+						},
+						"description": "- SQL Injection\n    \n- Insecure Direct Object Reference (IDOR)\n    \n- Error Handling (Sensitive Data Exposure)"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Appointment",
+			"item": [
+				{
+					"name": "Schedule appointment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userid\":\"16\",\r\n    \"ap_time\":\"2024-07-12 11:45:00\",\r\n    \"service_id\":\"4\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/scheduleappointment",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"scheduleappointment"
+							]
+						},
+						"description": "1. SQL Injection\n    \n2. Insecure Direct Object References (IDOR)\n    \n3. Cross-Site Scripting (XSS)\n    \n4. Insufficient Logging & Monitoring\n    \n5. Security Misconfiguration"
+					},
+					"response": []
+				},
+				{
+					"name": "Appointment List",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://45.79.19.55:8000/getapointments",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"getapointments"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						},
+						"description": "1. SQL Injection\n    \n2. Information Disclosure\n    \n3. Insufficient Input Validation\n    \n4. Insecure Direct Object References (IDOR)"
+					},
+					"response": []
+				},
+				{
+					"name": "Appointment CHECKINOUT",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"appointmentid\":\"6\",\r\n    \"out_time\":\"2024-07-11 15:45:00\",\r\n    \"type\":\"out\"\r\n    // \"type\":\"in\",\r\n    // \"in_time\":\"2024-07-11 14:45:00\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/checkinout",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"checkinout"
+							]
+						},
+						"description": "1. **SQL Injection**\n    \n2. **Lack of Input Validation**\n    \n3. **Lack of Output Encoding**\n    \n4. **No Rate Limiting**\n    \n5. **Insecure Direct Object References (IDOR)**\n    \n6. **Improper Error Handling**"
+					},
+					"response": []
+				},
+				{
+					"name": "payment",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"appointmentid\":\"6\",\r\n    \"time\":\"2024-07-11 15:50:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/paymentforservice",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"paymentforservice"
+							]
+						},
+						"description": "1. SQL Injection\n    \n2. Lack of Input Validation\n    \n3. No CSRF Protection\n    \n4. Insecure Direct Object References (IDOR)\n    \n5. No Error Handling/Logging\n    \n6. Lack of Rate Limiting\n    \n7. Insufficient Logging and Monitoring"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Employee",
+			"item": [
+				{
+					"name": "Add Employee",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"Jhon Diff\",\r\n    \"storeid\":3\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/addemployee",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"addemployee"
+							]
+						},
+						"description": "- SQL Injection\n    \n- Lack of Input Validation\n    \n- Lack of Output Encoding\n    \n- Lack of Error Handling\n    \n- Insufficient Rate Limiting"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Verify Email",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"token\": \"your_verification_token\",\n\t\"email\": \"john.doe213@example.com\"\n}"
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/verify",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"verify"
+							]
+						},
+						"description": "Vulnerable to these vulnerabilities\n\n- No rate limiting\n    \n- No race condition protection for email verification\n    \n- Lack of input validation/sanitization for `$token` and `$email`\n    \n- Potential SQL Injection vulnerability in the `SELECT` statement\n    \n- Lack of CSRF protection"
+					},
+					"response": []
+				},
+				{
+					"name": "Login User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = pm.response.json();\r",
+									"pm.collectionVariables.set(\"auth_token\", jsonData.token);"
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"john.doe213@example.com\",\n\t\"password\": \"password123\",\n\t\"store_name\": \"Store A\"\n}"
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/login",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"login"
+							]
+						},
+						"description": "- **No rate limiting**:\n    \n- **No input validation/sanitization**\n    \n- **No CSRF protection**\n    \n- **Potential SQL Injection**\n    \n- **Sensitive information leakage**\n    \n- **JWT Algorithm Confusion**\n    \n- **Debugging information in responses**"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SQLi Apis",
+			"item": [
+				{
+					"name": "GET user by id",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://45.79.19.55:8000/getuserbyid?id=14 OR 3=3",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"getuserbyid"
+							],
+							"query": [
+								{
+									"key": "token",
+									"value": "82440b09dae8c598721d05f5a21f2267",
+									"disabled": true
+								},
+								{
+									"key": "email",
+									"value": "jhos.doetest1@example.com",
+									"disabled": true
+								},
+								{
+									"key": "id",
+									"value": "14 OR 3=3"
+								}
+							]
+						},
+						"description": "- SQL Injection\n    \n- Improper Error Handling\n    \n- Lack of Input Validation\n    \n- Insufficient Rate Limiting"
+					},
+					"response": []
+				},
+				{
+					"name": "GET User",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"email\": \"john.doe213@example.com\",\n\t\"password\": \"password123\",\n\t\"store_name\": \"Store A\"\n}"
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/getuser?id=6",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"getuser"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "6"
+								}
+							]
+						},
+						"description": "- **Injection**\n    \n- **Broken Authentication**\n    \n- **Sensitive Data Exposure**\n    \n- **Security Misconfiguration**\n    \n- **Broken Access Control**"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User & Store",
+			"item": [
+				{
+					"name": "Update User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"user_id\": 1,\n\t\"name\": \"Jane Doe\",\n\t\"email\": \"jane.doe@example.com\"\n}"
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/updateUser",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"updateUser"
+							]
+						},
+						"description": "- **Injection** (SQL Injection)\n    \n- **Broken Authentication** (Potential issue with user identity verification)\n    \n- **Sensitive Data Exposure** (No encryption or proper handling of sensitive data)\n    \n- **Broken Access Control** (No validation for tenant-specific data updates)\n    \n- **Security Misconfiguration** (Lack of input validation)"
+					},
+					"response": []
+				},
+				{
+					"name": "Register User",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\t\"name\": \"John Doe\",\n\t\"email\": \"john.doe213@example.com\",\n\t\"password\": \"password123\",\n\t\"store_name\": \"Store A\",\n\t\"role\": \"customer\"\n}"
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/register",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"register"
+							]
+						},
+						"description": "Vulnerable to these vulnerabilities\n\n- SQL Injection,\n    \n- Information Disclosure,\n    \n- Lack of Input Validation,\n    \n- No Rate Limiting,\n    \n- Potential for Email Enumeration,\n    \n- No CSRF Protection,\n    \n- No Anti-Spam Measures"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SSRF",
+			"item": [
+				{
+					"name": "GET content by type",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://45.79.19.55:8000/fetchurl?url=https://laravel.com/docs/8.x/collections%23method-last&type=bycontent&type=bycurl&type=byfile&type=byfopen&type=bysocket",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"fetchurl"
+							],
+							"query": [
+								{
+									"key": "url",
+									"value": "https://laravel.com/docs/8.x/collections%23method-last"
+								},
+								{
+									"key": "type",
+									"value": "bycontent"
+								},
+								{
+									"key": "type",
+									"value": "bycurl"
+								},
+								{
+									"key": "type",
+									"value": "byfile"
+								},
+								{
+									"key": "type",
+									"value": "byfopen"
+								},
+								{
+									"key": "type",
+									"value": "bysocket"
+								}
+							]
+						},
+						"description": "- **Server-Side Request Forgery (SSRF)**\n    \n- **Improper Input Validation**\n    \n- **Information Disclosure**\n    \n- **Insecure Direct Object References (IDOR)**"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Offers",
+			"item": [
+				{
+					"name": "Add Offer",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"store_id\":4,\r\n    \"service_id\":4,\r\n    \"discount_per\":5,\r\n    \"valid_till\":\"2024-07-15\",\r\n    \"per_user\":2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/createoffer",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"createoffer"
+							]
+						},
+						"description": "- **SQL Injection**\n    \n- **Cross-Site Scripting (XSS)**\n    \n- **Improper Error Handling**\n    \n- **Insecure Direct Object References (IDOR)**"
+					},
+					"response": []
+				},
+				{
+					"name": "Update Offer",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"offerid\":4,\r\n    \"discount_per\":10,\r\n    \"valid_till\":\"2024-07-16\",\r\n    \"per_user\":5\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://45.79.19.55:8000/updateoffer",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"updateoffer"
+							]
+						},
+						"description": "- **SQL Injection**\n    \n- **Broken Authentication and Session Management**\n    \n- **Insecure Direct Object Reference**\n    \n- **Improper Error Handling**\n    \n- **Insecure Data Storage**\n    \n- **Unvalidated Redirects and Forwards**"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "RCE",
+			"item": [
+				{
+					"name": "Evaluate data",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://45.79.19.55:8000/executecode?code=phpinfo();",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"executecode"
+							],
+							"query": [
+								{
+									"key": "code",
+									"value": "phpinfo();"
+								}
+							]
+						},
+						"description": "1. **Code Injection**\n    \n2. **Broken Authentication**\n    \n3. **Sensitive Data Exposure**\n    \n4. **Security Misconfiguration**"
+					},
+					"response": []
+				},
+				{
+					"name": "__ping ip",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript",
+								"packages": {}
+							}
+						}
+					],
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer {{auth_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://45.79.19.55:8000/pingip?command=1.2.3.4; ls -la",
+							"protocol": "http",
+							"host": [
+								"45",
+								"79",
+								"19",
+								"55"
+							],
+							"port": "8000",
+							"path": [
+								"pingip"
+							],
+							"query": [
+								{
+									"key": "command",
+									"value": "1.2.3.4; ls -la"
+								}
+							]
+						},
+						"description": "1. **Command Injection**\n    \n2. **Improper Input Validation**\n    \n3. **Information Disclosure**\n    \n4. Insecure Direct Object References (IDOR)"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user authentication",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "bearer {{auth_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://45.79.19.55:8000/algoconfusion",
+					"protocol": "http",
+					"host": [
+						"45",
+						"79",
+						"19",
+						"55"
+					],
+					"port": "8000",
+					"path": [
+						"algoconfusion"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "6",
+							"disabled": true
+						},
+						{
+							"key": "alg",
+							"value": "adfds",
+							"disabled": true
+						}
+					]
+				},
+				"description": "1. **Broken Authentication**\n    \n2. **Sensitive Data Exposure**\n    \n3. **Broken Access Control**\n    \n4. **Security Misconfiguration**\n    \n5. **Insecure Deserialization**"
+			},
+			"response": []
+		},
+		{
+			"name": "basic operation",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Authorization",
+						"value": "bearer {{auth_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://45.79.19.55:8000/new-operation?input=anything' OR '1'='1",
+					"protocol": "http",
+					"host": [
+						"45",
+						"79",
+						"19",
+						"55"
+					],
+					"port": "8000",
+					"path": [
+						"new-operation"
+					],
+					"query": [
+						{
+							"key": "input",
+							"value": "anything' OR '1'='1"
+						}
+					]
+				},
+				"description": "1. Insecure Polyfill for `json_encode`\n    \n2. SQL Injection\n    \n3. Improper Error Handling\n    \n4. Lack of Input Validation\n    \n5. Insecure Database Connection\n    \n6. Cross-Site Scripting (XSS)\n    \n7. Prototype Pollution (it affectes JavaScript applications)\n    \n8. Denial of Service (DoS)\n    \n9. Code Injection"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "auth_token",
+			"value": "",
+			"type": "string"
+		}
+	]
+}
