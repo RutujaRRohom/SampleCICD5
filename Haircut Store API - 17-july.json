@@ -24,7 +24,7 @@
 							}
 						}
 					],
-					"request": {
+					"requestSXS": {
 						"method": "GETPUT POST",
 						"header": [
 							{
