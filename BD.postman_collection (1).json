@@ -1,0 +1,5271 @@
+{
+	"info": {
+		"_postman_id": "16b31ab6-7d1b-4c5f-91f5-2cbad42cf691",
+		"name": "BD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19538128"
+	},
+	"item": [
+		{
+			"name": "Alias",
+			"item": [
+				{
+					"name": "checkalias",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/checkalias",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"checkalias"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Permission",
+			"item": [
+				{
+					"name": "permissions",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/permissions",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"permissions"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Profile Apis",
+			"item": [
+				{
+					"name": "profile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/profile",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Fullprofile",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/fullprofile",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"fullprofile"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userrank",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/userrank",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"userrank"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "skillset",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/skillset",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"skillset"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "userlogs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/userlogs?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"userlogs"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "updateskills",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"skills\":{\"0\":{\"skill_id\":\"6435957997f3e6766b3f2ac0\",\"rating\":\"5\"}}}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/updateskills",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"updateskills"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deleteskill",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/deleteskill/6435957997f3e6766b3f2ac0",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"deleteskill",
+								"6435957997f3e6766b3f2ac0"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "uploadcertificates",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileName[]",
+									"type": "file",
+									"src": "test.pdf"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/uploadcertificates",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"uploadcertificates"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "deletecertificate",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/deletecertificate/666c071897f0a15bf76c0b77",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"deletecertificate",
+								"666c071897f0a15bf76c0b77"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "profileimage",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "fileName",
+									"type": "file",
+									"src": "pexels-eugene-shelestov-33930.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/profileimage",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"profileimage"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Profile Update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"linkedin\":\"\",\"github\":\"https://github.com/\",\"twitter\":\"\",\"website\":\"\",\"step\":\"social\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/profile",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"profile"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Dashboard Apis",
+			"item": [
+				{
+					"name": "recentactivity",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/recentactivity?filter=all&page=1&perPage=5&program=0&ticket=0",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"recentactivity"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "5"
+								},
+								{
+									"key": "program",
+									"value": "0"
+								},
+								{
+									"key": "ticket",
+									"value": "0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "programcount",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/programcount?filter=all",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"programcount"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "customercriticalasset",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/customercriticalasset?filter=all",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"customercriticalasset"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "owasptypes",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/owasptypes",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"owasptypes"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "longopenvuln",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/longopenvuln?filter=all&severity=all",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"longopenvuln"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								},
+								{
+									"key": "severity",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "programlists",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/programlists",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"programlists"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "assetheatmap",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/assetheatmap?filter=all&program=%5B%5D",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"assetheatmap"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								},
+								{
+									"key": "program",
+									"value": "%5B%5D"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "vulnbystatus",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/vulnbystatus?filter=all",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"vulnbystatus"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "programcount",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/programcount?filter=all",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"programcount"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "longopenvuln",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/longopenvuln?filter=all&severity=Critical",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"longopenvuln"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								},
+								{
+									"key": "severity",
+									"value": "Critical"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "owasptopten",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/owasptopten?filter=all&type=web",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"owasptopten"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								},
+								{
+									"key": "type",
+									"value": "web"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "vulnbyseverity",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/vulnbyseverity?filter=all",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"vulnbyseverity"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "severities/custom",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/severities/custom",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"severities",
+								"custom"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "program/details",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/program/details?page=1&perPage=10&status=Ongoing&filter=all",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"program",
+								"details"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								},
+								{
+									"key": "status",
+									"value": "Ongoing"
+								},
+								{
+									"key": "filter",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "projects?type=ticketdropdow",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/projects?type=ticketdropdown&status=1&filter=all",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"projects"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "ticketdropdown"
+								},
+								{
+									"key": "status",
+									"value": "1"
+								},
+								{
+									"key": "filter",
+									"value": "all"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "servirity update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"_id\":\"61519798ab1dd105906f13b4\",\"high\":\"High\",\"low\":\"Low\",\"medium\":\"Medium\",\"critical\":\"Critical\",\"informational\":\"Informational\",\"created_by\":\"6113643b7dce3d0c9720132b\",\"organization\":\"610a95c62cad73428d17e1d1\",\"created_at\":\"2021-09-27T10:06:16.000000Z\",\"updated_at\":\"2024-06-05T08:09:19.000000Z\",\"updated_by\":\"628343bba1536f750214fbf7\"}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/severity/61519798ab1dd105906f13b4",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"severity",
+								"61519798ab1dd105906f13b4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Security Menu ",
+			"item": [
+				{
+					"name": "whitelistips",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/whitelistips?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"whitelistips"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "current/ip",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/current/ip",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"current",
+								"ip"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Userlist Page",
+			"item": [
+				{
+					"name": "Customer",
+					"item": [
+						{
+							"name": "customer Update",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json, text/plain, */*"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en-US,en;q=0.9,en-IN;q=0.8"
+									},
+									{
+										"key": "Authorization",
+										"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+									},
+									{
+										"key": "Connection",
+										"value": "keep-alive"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json"
+									},
+									{
+										"key": "Origin",
+										"value": "https://securelayer7.bugdazz.com"
+									},
+									{
+										"key": "Referer",
+										"value": "https://securelayer7.bugdazz.com/"
+									},
+									{
+										"key": "Sec-Fetch-Dest",
+										"value": "empty"
+									},
+									{
+										"key": "Sec-Fetch-Mode",
+										"value": "cors"
+									},
+									{
+										"key": "Sec-Fetch-Site",
+										"value": "same-site"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\"email\":\"veeraj.k@yopmail.com\",\"role\":\"5fcdd4eefcba181bee02392e\",\"timeZone\":\"Asia/Kolkata\",\"designation\":\"Security Consulatant\",\"status\":\"1\",\"isPrimary\":0}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://nexus.bugdazz.com/customer/api/v1/customer/65f7fe6bc32356519646c493",
+									"protocol": "https",
+									"host": [
+										"nexus",
+										"bugdazz",
+										"com"
+									],
+									"path": [
+										"customer",
+										"api",
+										"v1",
+										"customer",
+										"65f7fe6bc32356519646c493"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "resendinvite",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json, text/plain, */*"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en-US,en;q=0.9,en-IN;q=0.8"
+									},
+									{
+										"key": "Authorization",
+										"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+									},
+									{
+										"key": "Connection",
+										"value": "keep-alive"
+									},
+									{
+										"key": "Content-Length",
+										"value": "0"
+									},
+									{
+										"key": "Origin",
+										"value": "https://securelayer7.bugdazz.com"
+									},
+									{
+										"key": "Referer",
+										"value": "https://securelayer7.bugdazz.com/"
+									},
+									{
+										"key": "Sec-Fetch-Dest",
+										"value": "empty"
+									},
+									{
+										"key": "Sec-Fetch-Mode",
+										"value": "cors"
+									},
+									{
+										"key": "Sec-Fetch-Site",
+										"value": "same-site"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									}
+								],
+								"url": {
+									"raw": "https://nexus.bugdazz.com/customer/api/v1/customer/65f82527a09e1348d31e7e67?step=resendinvite",
+									"protocol": "https",
+									"host": [
+										"nexus",
+										"bugdazz",
+										"com"
+									],
+									"path": [
+										"customer",
+										"api",
+										"v1",
+										"customer",
+										"65f82527a09e1348d31e7e67"
+									],
+									"query": [
+										{
+											"key": "step",
+											"value": "resendinvite"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "customer info",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json, text/plain, */*"
+									},
+									{
+										"key": "Accept-Language",
+										"value": "en-US,en;q=0.9,en-IN;q=0.8"
+									},
+									{
+										"key": "Authorization",
+										"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+									},
+									{
+										"key": "Connection",
+										"value": "keep-alive"
+									},
+									{
+										"key": "Origin",
+										"value": "https://securelayer7.bugdazz.com"
+									},
+									{
+										"key": "Referer",
+										"value": "https://securelayer7.bugdazz.com/"
+									},
+									{
+										"key": "Sec-Fetch-Dest",
+										"value": "empty"
+									},
+									{
+										"key": "Sec-Fetch-Mode",
+										"value": "cors"
+									},
+									{
+										"key": "Sec-Fetch-Site",
+										"value": "same-site"
+									},
+									{
+										"key": "User-Agent",
+										"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+									},
+									{
+										"key": "sec-ch-ua",
+										"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+									},
+									{
+										"key": "sec-ch-ua-mobile",
+										"value": "?0"
+									},
+									{
+										"key": "sec-ch-ua-platform",
+										"value": "\"Windows\""
+									}
+								],
+								"url": {
+									"raw": "https://nexus.bugdazz.com/customer/api/v1/customers/665f090a727c3c54962d9dc2",
+									"protocol": "https",
+									"host": [
+										"nexus",
+										"bugdazz",
+										"com"
+									],
+									"path": [
+										"customer",
+										"api",
+										"v1",
+										"customers",
+										"665f090a727c3c54962d9dc2"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "timezones",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/timezones",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"timezones"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "customerrolelist",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/customerrolelist",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"customerrolelist"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "customers?type=userdropdown",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/customers?type=userdropdown",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "userdropdown"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "customers?list=invite&page=1&perPage=10",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/customers?list=invite&page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "list",
+									"value": "invite"
+								},
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "customers?type=emaildropdown",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/customers?type=emaildropdown",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "emaildropdown"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "customers?type=userroledropdown",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/customers?type=userroledropdown",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"customers"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "userroledropdown"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Roles & Permissions",
+			"item": [
+				{
+					"name": "roles",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/roles?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"roles"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "roles?type=dropdown",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/roles?type=dropdown",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"roles"
+							],
+							"query": [
+								{
+									"key": "type",
+									"value": "dropdown"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Role wise permission view",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/permissions/get/5f8ae3a06379381ed24ddba4",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"permissions",
+								"get",
+								"5f8ae3a06379381ed24ddba4"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "role wise permission update",
+					"request": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\"name\":\"Subscriber Admin\",\"status\":1,\"permissions\":[\"dashboard\",\"program\",\"projectcreate\",\"project\",\"projectdocument\",\"projectupdate\",\"projectstatus\",\"reports\",\"vulnerabilityphasereport\",\"vulnerabilitydocreport\",\"phaseexport\",\"vulnerabilityphasedocreport\",\"pentestreport\",\"scope\",\"assignresource\",\"assignresourceupdate\",\"scopefilecreate\",\"scopestatusupdate\",\"stackholder\",\"stackholdercreate\",\"stackholderupdate\",\"finding\",\"retest\",\"vulnerabilitystateupdate\",\"vulnerabilityreport\",\"pendinglist\",\"reportedby\",\"reportfile\",\"reportfilecreate\",\"reportfiledownload\",\"reportfileupdate\",\"reportapproval\",\"pendingreports\",\"projectsetting\",\"phasestatusupdate\",\"resourcemanage\",\"projectdraft\",\"ticket\",\"vulnerability\",\"vulnerabilityupdate\",\"vulnerabilitystatusupdate\",\"procommentcreate\",\"activitylog\",\"reopenapproval\",\"vulnerabilitycreate\",\"vulnerabilityrating\",\"team\",\"user\",\"customer\",\"customercreate\",\"customerupdate\",\"resendinvite\",\"role\",\"rolecreate\",\"roleupdate\",\"roleview\",\"localteam\",\"localteamscreate\",\"localteamsupdate\",\"localteamsaccess\",\"localteams\",\"org\",\"organizationcreate\",\"organization\",\"organizationstatus\",\"organizationaction\",\"organizationupdate\",\"orgcustomercreate\",\"orgcustomer\",\"orgcustomerstatus\",\"orgcustomerupdate\",\"onboardfile\",\"onboardfilecreate\",\"onboardfileview\",\"onboardfiledelete\",\"onboardfilestatus\",\"orgassets\",\"orgvoucher\",\"orgreportfile\",\"orgreportaction\",\"orgreportfileview\",\"orgreportfileupdate\",\"orgreportfilecreate\",\"organizationstate\",\"clientexport\",\"myorganization\",\"myorgdoc\",\"myorgdoccreate\",\"myorgassets\",\"myorgreport\",\"myorgreportcreate\",\"myorganizationlog\",\"integration\",\"jiraworkflow\",\"jiraconfigcreate\",\"jiraconfigupdate\",\"jiraworkflowcreate\",\"jiraworkflowdisable\",\"jiraworkflowdesc\",\"jiraworkflowarchive\",\"setup\",\"customseverity\",\"customseverityupdate\",\"iprestriction\",\"iprestrictioncreate\",\"iprestrictionupdate\",\"profile\",\"profileupdate\",\"userlog\",\"reporttemplate\",\"reporttemplatecreate\"]}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/role/5f8ae3a06379381ed24ddba4",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"role",
+								"5f8ae3a06379381ed24ddba4"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Explore Page",
+			"item": [
+				{
+					"name": "myorganization",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "myorganization/asset",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization/asset?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization",
+								"asset"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "myorganization/asset/filter",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization/asset/filter",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization",
+								"asset",
+								"filter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "myorganization/docs",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization/docs?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization",
+								"docs"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "myorganization/docs/filter",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization/docs/filter",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization",
+								"docs",
+								"filter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "myorganization/reports",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization/reports?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization",
+								"reports"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "myorganization/reports/filter",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization/reports/filter",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization",
+								"reports",
+								"filter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "myorganization/doc/ download by id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization/doc/65f9300f7e44cb3a29684787",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization",
+								"doc",
+								"65f9300f7e44cb3a29684787"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "myorganization/reports/ download by id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/myorganization/reports/65fa735d2114fd39aa65db0b",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"myorganization",
+								"reports",
+								"65fa735d2114fd39aa65db0b"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Clients Page",
+			"item": [
+				{
+					"name": "client list",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organizations?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organizations"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "client registration graph ",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organizationsgraph?filter=currentquarter&startDate=undefined&endDate=undefined",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organizationsgraph"
+							],
+							"query": [
+								{
+									"key": "filter",
+									"value": "currentquarter"
+								},
+								{
+									"key": "startDate",
+									"value": "undefined"
+								},
+								{
+									"key": "endDate",
+									"value": "undefined"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "organization/filter",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organization/filter",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organization",
+								"filter"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "organization/export",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organization/export",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organization",
+								"export"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Client Details Page",
+			"item": [
+				{
+					"name": "Organization details by id ",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organizations/66603027632d95443818d179",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organizations",
+								"66603027632d95443818d179"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "client credits by org id ",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/credits/66603027632d95443818d179",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"credits",
+								"66603027632d95443818d179"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "organization/assets/filter/byid",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organization/assets/filter/66603027632d95443818d179",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organization",
+								"assets",
+								"filter",
+								"66603027632d95443818d179"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "organization/assets/byid",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organization/assets/66603027632d95443818d179?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organization",
+								"assets",
+								"66603027632d95443818d179"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "organizations/customer/filter/by orgid",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organizations/customer/filter/66603027632d95443818d179",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organizations",
+								"customer",
+								"filter",
+								"66603027632d95443818d179"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "organizations/customer/list/by org id",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json, text/plain, */*"
+							},
+							{
+								"key": "Accept-Language",
+								"value": "en-US,en;q=0.9,en-IN;q=0.8"
+							},
+							{
+								"key": "Authorization",
+								"value": "bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL25leHVzLmJ1Z2RhenouY29tL2N1c3RvbWVyL2FwaS92MS9zaWduaW4iLCJpYXQiOjE3MTgzNTE5MDgsImV4cCI6MTcxODM4MDcwOCwibmJmIjoxNzE4MzUxOTA4LCJqdGkiOiJncjVrSkRuelhGc0o3V3dQIiwic3ViIjoiNjMwNGI3N2IxYjRhN2QyZDIwNGI2M2U3IiwicHJ2IjoiOGI0MjJlNmY2NTc5MzJiOGFlYmNiMWJmMWUzNTZkZDc2YTM2NWJmMiJ9.qHFwn5y51YHc1Btnqf2jDHHV26iY9p0m2ju2-_E-naY"
+							},
+							{
+								"key": "Connection",
+								"value": "keep-alive"
+							},
+							{
+								"key": "Origin",
+								"value": "https://securelayer7.bugdazz.com"
+							},
+							{
+								"key": "Referer",
+								"value": "https://securelayer7.bugdazz.com/"
+							},
+							{
+								"key": "Sec-Fetch-Dest",
+								"value": "empty"
+							},
+							{
+								"key": "Sec-Fetch-Mode",
+								"value": "cors"
+							},
+							{
+								"key": "Sec-Fetch-Site",
+								"value": "same-site"
+							},
+							{
+								"key": "User-Agent",
+								"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0"
+							},
+							{
+								"key": "sec-ch-ua",
+								"value": "\"Microsoft Edge\";v=\"125\", \"Chromium\";v=\"125\", \"Not.A/Brand\";v=\"24\""
+							},
+							{
+								"key": "sec-ch-ua-mobile",
+								"value": "?0"
+							},
+							{
+								"key": "sec-ch-ua-platform",
+								"value": "\"Windows\""
+							}
+						],
+						"url": {
+							"raw": "https://nexus.bugdazz.com/customer/api/v1/organizations/customer/list/66603027632d95443818d179?page=1&perPage=10",
+							"protocol": "https",
+							"host": [
+								"nexus",
+								"bugdazz",
+								"com"
+							],
+							"path": [
+								"customer",
+								"api",
+								"v1",
+								"organizations",
+								"customer",
+								"list",
+								"66603027632d95443818d179"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "perPage",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Projects",
+			"item": [
+				{
+					"name": "Project details page count board",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
